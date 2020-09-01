@@ -16,8 +16,8 @@
 
 
 // nuova versione
-const hamburger = $("a > i.fas.fa-bars");
-const xClose = $("a > i.fas.fa-times");
+const hamburger = $(".header-right > a > i.fas.fa-bars");
+const xClose = $("a.close > i.fas.fa-times");
 
 $(document).ready(function () {
 
